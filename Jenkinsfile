@@ -19,9 +19,11 @@ pipeline{
             }
         }
         stage('Test'){
-            sh'''
+            steps{
+                sh'''
             This is test stage 
             '''
+            }
         }
     }
 }
