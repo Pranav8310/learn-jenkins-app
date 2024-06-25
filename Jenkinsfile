@@ -5,7 +5,7 @@ pipeline{
         }
     }
     stages{
-        stage('Hello'){
+        stage('Build'){
             steps{
                 sh '''
                 ls -la
@@ -17,6 +17,11 @@ pipeline{
                 npm version
                 '''
             }
+        }
+        stage('Test'){
+            sh'''
+            echo 'test stage
+            '''
         }
     }
 }
