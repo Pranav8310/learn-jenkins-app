@@ -44,7 +44,7 @@
     "suiteName": "jest tests",
     "outputDirectory": "test-results",
     "outputName": "junit.xml",
-    "uniqueOutputName": "false",
+    "uniqueOutputName": "true",
     "classNameTemplate": "{classname}-{title}",
     "titleTemplate": "{classname}-{title}",
     "ancestorSeparator": " › ",
